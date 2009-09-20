@@ -1,0 +1,18 @@
+PRE-REQS
+================================================================================
+This project is built using gradle.  Currently version 0.8 is being used.
+Go to http://www.gradle.org and download gradle-0.8-all.zip.  Unzip gradle
+wherever you like, but make sure it's on your PATH. 
+
+BUILDING
+================================================================================
+Usage of gradle is very similar to ant.  Simply cd to the project directory and
+execute gradle compile.
+
+NOTE: You can see the list of tasks available via gradle -t
+
+GENERATING ECLIPSE PROJECT
+================================================================================
+Execute gradle eclipse and a new eclipse project will be created with all of
+the needed libraries.
+
